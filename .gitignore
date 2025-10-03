@@ -18,8 +18,8 @@ bld/
 .vs/
 .vscode/
 
-# Database files
-*.db
+# Database files (keep itshop.db for schema reference)
+# *.db
 *.db-shm
 *.db-wal
 
