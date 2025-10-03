@@ -150,7 +150,14 @@ dotnet test --filter ProductServiceTests
 
 ## 🗄️ Database
 
-The project uses SQLite with Entity Framework Core migrations:
+The project uses SQLite with Entity Framework Core migrations.
+
+**Note:** The repository includes `itshop.db` with sample data (20 products) for immediate testing and reference. This file contains:
+- Complete database schema
+- 20 sample IT products
+- Sample customers and orders
+
+To start fresh or apply migrations:
 
 ```bash
 # Create a new migration
